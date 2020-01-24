@@ -1,0 +1,28 @@
+{
+  "name": "ndx",
+  "version": "1.0.0",
+  "description": "extended node debugger server and client cli on v8 debugger protocol",
+  "main": "cli.js",
+  "scripts": {
+    "test-server": "./cli.js -s -h localhost -p 3000 ./app-sample",
+    "test-client": "./cli.js -c -h localhost -p 3000 -w ./watcher-samples/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecpy/ndx.git"
+  },
+  "author": {
+    "name": "Edward Yung",
+    "email": "edward.cpyung@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecpy/ndx/issues"
+  },
+  "homepage": "https://github.com/ecpy/ndx#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0"
+  }
+}
