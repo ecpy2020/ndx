@@ -1,5 +1,5 @@
 {
-  "name": "ndx",
+  "name": "@ecpy/ndx",
   "version": "1.0.0",
   "description": "extended node debugger server and client cli on v8 debugger protocol",
   "main": "cli.js",
@@ -24,5 +24,8 @@
     "bluebird": "^3.7.2",
     "chalk": "^3.0.0",
     "commander": "^4.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
