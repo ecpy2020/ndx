@@ -1,15 +1,14 @@
 # ndx
 extended node debugger server and client cli on v8 debugger protocol
 
-## demo
-
-<img src="https://github.com/ecpy/ndx/demo/ndx.gif" height="400">
-
 ## features
 - able to register watchers to automate the debugging process 
 - ```Watcher#onDebugEvent``` interface returns inspector object based on [v8 debugger protocol](https://chromedevtools.github.io/devtools-protocol/v8)
 - watcher enables to blackbox and stepover the custom or internal scripts when stepping and trace function calls and variables
 - separated server executable and client cli makes debugging dockerized node app possible 
+
+## demo
+<img src="https://github.com/ecpy/ndx/raw/master/demo/ndx.gif">
 
 ## install
 ```bash
@@ -62,55 +61,5 @@ class VariablesWatcher extends Watcher {
 
 ## development
 - parts of the debugger structure is referenced from [node-inspect](https://github.com/nodejs/node-inspect)  
-```mermaid
- classDiagram
-		NodeInspector <.. Repl: depend
-	  NodeInspector ..> Repl: create
-		NodeInspector <.. WatcherService: depend
-	  NodeInspector ..> WatcherService: create
-	  NodeInspector ..> InspectorClient: create
-	  NodeInspector ..> NodeDebugProcess: startServer()
-	  InspectorClient ..> NodeDebugProcess: connect()
-	  WatcherService ..> Watcher: register
 
-	  class NodeDebugProcess{
-	  	- script: File
-    -...
-	  }
-
-		class NodeInspector{
-				-repl: Repl
-				-client: InspectClient
-		-watchService: WatchService
-		-opts: [port, host, file, ...]
-  -...
-		+constructor(opts, stdin, stdout)
-		-startServer()
-		-connectServer()
-				-loadWatchers()
-		+print(message)
-		+[domains[:]]()
-		}
-
-	  class Repl {
-    -history: String[]
-    -...
-		  -controlEval(input)
-	  }
-
-		class InspectorClient{
-				+connect()
-				+emit()
-				+on()
-		}
-
-		class WatcherService{
-				-watchers: Watcher[]
-    -...
-				+registerWatcher(watcher: Watcher)
-		}
-
-		class Watcher{
-				+onDebugEvent(inspector: NodeInspector, domain, name, params)		  
-		}
-```
+<img src="https://github.com/ecpy/ndx/raw/master/structure.png" height="500">
