@@ -1,0 +1,505 @@
+<svg id="mermaid-1579876949190" width="875.75" xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="-10 -10 590.5 421"><style>
+
+
+
+#mermaid-1579876949190 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  color: #333; }
+
+#mermaid-1579876949190 .label text {
+  fill: #333; }
+
+#mermaid-1579876949190 .node rect,
+#mermaid-1579876949190 .node circle,
+#mermaid-1579876949190 .node ellipse,
+#mermaid-1579876949190 .node polygon,
+#mermaid-1579876949190 .node path {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1579876949190 .node .label {
+  text-align: center; }
+
+#mermaid-1579876949190 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1579876949190 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1579876949190 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1579876949190 .edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+
+#mermaid-1579876949190 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1579876949190 .cluster text {
+  fill: #333; }
+
+#mermaid-1579876949190 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1579876949190 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1579876949190 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1579876949190 .actor-line {
+  stroke: grey; }
+
+#mermaid-1579876949190 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1579876949190 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1579876949190 #arrowhead {
+  fill: #333; }
+
+#mermaid-1579876949190 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1579876949190 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1579876949190 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1579876949190 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1579876949190 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1579876949190 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1579876949190 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1579876949190 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1579876949190 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1579876949190 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 14px; }
+
+#mermaid-1579876949190 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1579876949190 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1579876949190 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1579876949190 .mermaid-main-font {
+  font-family: "trebuchet ms", verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1579876949190 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1579876949190 .section2 {
+  fill: #fff400; }
+
+#mermaid-1579876949190 .section1,
+#mermaid-1579876949190 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1579876949190 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1579876949190 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1579876949190 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1579876949190 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1579876949190 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+
+#mermaid-1579876949190 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.8;
+  shape-rendering: crispEdges; }
+#mermaid-1579876949190   .grid .tick text {
+    font-family: 'trebuchet ms', verdana, arial;
+    font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1579876949190 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1579876949190 .task {
+  stroke-width: 2; }
+
+#mermaid-1579876949190 .taskText {
+  text-anchor: middle;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 .taskText:not([font-size]) {
+  font-size: 11px; }
+
+#mermaid-1579876949190 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1579876949190 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1579876949190 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1579876949190 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1579876949190 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1579876949190 .taskText0,
+#mermaid-1579876949190 .taskText1,
+#mermaid-1579876949190 .taskText2,
+#mermaid-1579876949190 .taskText3 {
+  fill: white; }
+
+#mermaid-1579876949190 .task0,
+#mermaid-1579876949190 .task1,
+#mermaid-1579876949190 .task2,
+#mermaid-1579876949190 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1579876949190 .taskTextOutside0,
+#mermaid-1579876949190 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1579876949190 .taskTextOutside1,
+#mermaid-1579876949190 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1579876949190 .active0,
+#mermaid-1579876949190 .active1,
+#mermaid-1579876949190 .active2,
+#mermaid-1579876949190 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1579876949190 .activeText0,
+#mermaid-1579876949190 .activeText1,
+#mermaid-1579876949190 .activeText2,
+#mermaid-1579876949190 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1579876949190 .done0,
+#mermaid-1579876949190 .done1,
+#mermaid-1579876949190 .done2,
+#mermaid-1579876949190 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1579876949190 .doneText0,
+#mermaid-1579876949190 .doneText1,
+#mermaid-1579876949190 .doneText2,
+#mermaid-1579876949190 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1579876949190 .crit0,
+#mermaid-1579876949190 .crit1,
+#mermaid-1579876949190 .crit2,
+#mermaid-1579876949190 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1579876949190 .activeCrit0,
+#mermaid-1579876949190 .activeCrit1,
+#mermaid-1579876949190 .activeCrit2,
+#mermaid-1579876949190 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1579876949190 .doneCrit0,
+#mermaid-1579876949190 .doneCrit1,
+#mermaid-1579876949190 .doneCrit2,
+#mermaid-1579876949190 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1579876949190 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1579876949190 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1579876949190 .doneCritText0,
+#mermaid-1579876949190 .doneCritText1,
+#mermaid-1579876949190 .doneCritText2,
+#mermaid-1579876949190 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1579876949190 .activeCritText0,
+#mermaid-1579876949190 .activeCritText1,
+#mermaid-1579876949190 .activeCritText2,
+#mermaid-1579876949190 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1579876949190 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 10px; }
+#mermaid-1579876949190   g.classGroup text .title {
+    font-weight: bolder; }
+
+#mermaid-1579876949190 g.clickable {
+  cursor: pointer; }
+
+#mermaid-1579876949190 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1579876949190 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1579876949190 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1579876949190 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1579876949190 .dashed-line {
+  stroke-dasharray: 3; }
+
+#mermaid-1579876949190 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 .commit-id,
+#mermaid-1579876949190 .commit-msg,
+#mermaid-1579876949190 .branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 .pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 .slice {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1579876949190 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px; }
+
+#mermaid-1579876949190 g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+#mermaid-1579876949190 g.stateGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1579876949190 g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1579876949190 .transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1579876949190 .stateGroup .composit {
+  fill: white;
+  border-bottom: 1px; }
+
+#mermaid-1579876949190 .stateGroup .alt-composit {
+  fill: #e0e0e0;
+  border-bottom: 1px; }
+
+#mermaid-1579876949190 .state-note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+#mermaid-1579876949190   .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+#mermaid-1579876949190 .stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1579876949190 .stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial';
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1579876949190 {
+    color: rgb(0, 0, 0);
+    font: normal normal 400 normal 16px / normal "trebuchet ms", verdana, arial;
+  }</style><g></g><defs><marker id="extensionStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 1,7 L18,13 V 1 Z"></path></marker></defs><defs><marker id="extensionEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 1,1 V 13 L18,7 Z"></path></marker></defs><defs><marker id="compositionStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="compositionEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="aggregationStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="aggregationEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="dependencyStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 5,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="dependencyEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L14,7 L9,1 Z"></path></marker></defs><g id="classid-NodeInspector-6749" class="classGroup " transform="translate(157.5,0 )"><rect x="0" y="0" width="161" height="160"></rect><text y="15" x="0"><tspan class="title" x="45.5">NodeInspector</tspan></text><line x1="0" y1="25" y2="25" x2="161"></line><text x="5" y="35" fill="white" class="classText"><tspan x="5">-repl: Repl</tspan><tspan x="5" dy="10">-client: InspectClient</tspan><tspan x="5" dy="10">-watchService: WatchService</tspan><tspan x="5" dy="10">-opts: [port, host, file, ...]</tspan><tspan x="5" dy="10">-...</tspan></text><line x1="0" y1="85" y2="85" x2="161"></line><text x="5" y="100" fill="white" class="classText"><tspan x="5">+constructor(opts, stdin, stdout)</tspan><tspan x="5" dy="10">-startServer()</tspan><tspan x="5" dy="10">-connectServer()</tspan><tspan x="5" dy="10">-loadWatchers()</tspan><tspan x="5" dy="10">+print(message)</tspan><tspan x="5" dy="10">+[domains[:]]()</tspan></text></g><g id="classid-Repl-6750" class="classGroup " transform="translate(0,210 )"><rect x="0" y="0" width="99" height="80"></rect><text y="15" x="0"><tspan class="title" x="39">Repl</tspan></text><line x1="0" y1="25" y2="25" x2="99"></line><text x="5" y="35" fill="white" class="classText"><tspan x="5">-history: String[]</tspan><tspan x="5" dy="10">-...</tspan></text><line x1="0" y1="55" y2="55" x2="99"></line><text x="5" y="70" fill="white" class="classText"><tspan x="5">-controlEval(input)</tspan></text></g><g id="classid-WatcherService-6751" class="classGroup " transform="translate(149,210 )"><rect x="0" y="0" width="178" height="80"></rect><text y="15" x="0"><tspan class="title" x="52.5">WatcherService</tspan></text><line x1="0" y1="25" y2="25" x2="178"></line><text x="5" y="35" fill="white" class="classText"><tspan x="5">-watchers: Watcher[]</tspan><tspan x="5" dy="10">-...</tspan></text><line x1="0" y1="55" y2="55" x2="178"></line><text x="5" y="70" fill="white" class="classText"><tspan x="5">+registerWatcher(watcher: Watcher)</tspan></text></g><g id="classid-InspectorClient-6752" class="classGroup " transform="translate(488.5,212.5 )"><rect x="0" y="0" width="82" height="75"></rect><text y="15" x="0"><tspan class="title" x="5">InspectorClient</tspan></text><line x1="0" y1="25" y2="25" x2="82"></line><text x="5" y="35" fill="white" class="classText"></text><line x1="0" y1="30" y2="30" x2="82"></line><text x="5" y="45" fill="white" class="classText"><tspan x="5">+connect()</tspan><tspan x="5" dy="10">+emit()</tspan><tspan x="5" dy="10">+on()</tspan></text></g><g id="classid-NodeDebugProcess-6753" class="classGroup " transform="translate(442,340 )"><rect x="0" y="0" width="99" height="61"></rect><text y="15" x="0"><tspan class="title" x="5">NodeDebugProcess</tspan></text><line x1="0" y1="25" y2="25" x2="99"></line><text x="5" y="35" fill="white" class="classText"><tspan x="5">- script: File</tspan><tspan x="5" dy="10">-...</tspan></text><line x1="0" y1="55" y2="55" x2="99"></line><text x="5" y="70" fill="white" class="classText"></text></g><g id="classid-Watcher-6754" class="classGroup " transform="translate(84,343 )"><rect x="0" y="0" width="308" height="55"></rect><text y="15" x="0"><tspan class="title" x="134">Watcher</tspan></text><line x1="0" y1="25" y2="25" x2="308"></line><text x="5" y="35" fill="white" class="classText"></text><line x1="0" y1="30" y2="30" x2="308"></line><text x="5" y="45" fill="white" class="classText"><tspan x="5">+onDebugEvent(inspector: NodeInspector, domain, name, params)</tspan></text></g><path d="M157.5,122.58186397984886L137.83333333333334,132.98488664987406C118.16666666666667,143.38790931989925,78.83333333333333,164.19395465994964,59.807692307692314,178.7636439966415C40.78205128205128,193.33333333333334,42.06410256410256,201.66666666666666,42.705128205128204,205.83333333333334L43.34615384615385,210" id="edge6368" class="relation dashed-line" marker-start="url(#dependencyStart)"></path><g class="classLabel"><rect class="box" x="68.3125" y="146.203125" width="38.015625" height="20.015625"></rect><text class="label" x="87.32062354464553" y="159.7044560595074" fill="red" text-anchor="middle">depend</text></g><path d="M158.57142857142856,160L154.4345238095238,164.16666666666666C150.29761904761904,168.33333333333334,142.02380952380952,176.66666666666666,132.0952380952381,185.30168150346194C122.16666666666667,193.93669634025719,110.58333333333333,202.87339268051434,104.79166666666667,207.34174085064294L99,211.8100890207715" id="edge6369" class="relation dashed-line" marker-end="url(#dependencyEnd)"></path><g class="classLabel"><rect class="box" x="113.8125" y="174.140625" width="34.015625" height="20.015625"></rect><text class="label" x="130.3213939795657" y="187.645215327338" fill="red" text-anchor="middle">create</text></g><path d="M173.8095238095238,160L170.46626984126985,164.16666666666666C167.12301587301587,168.33333333333334,160.43650793650792,176.66666666666666,162.493894993895,185C164.55128205128207,193.33333333333334,175.35256410256412,201.66666666666666,180.7532051282051,205.83333333333334L186.15384615384616,210" id="edge6370" class="relation dashed-line" marker-start="url(#dependencyStart)"></path><g class="classLabel"><rect class="box" x="138.25" y="174.203125" width="38.015625" height="20.015625"></rect><text class="label" x="157.26300874415386" y="187.71033315572706" fill="red" text-anchor="middle">depend</text></g><path d="M318.5,152.3982869379015L324.5416666666667,157.8319057815846C330.5833333333333,163.26552462526766,342.6666666666667,174.13276231263384,341.22435897435895,183.7330478229836C339.78205128205127,193.33333333333334,324.81410256410254,201.66666666666666,317.3301282051282,205.83333333333334L309.8461538461538,210" id="edge6371" class="relation dashed-line" marker-end="url(#dependencyEnd)"></path><g class="classLabel"><rect class="box" x="337.09375" y="172.140625" width="34.015625" height="20.015625"></rect><text class="label" x="353.5965615456802" y="185.64217130219095" fill="red" text-anchor="middle">create</text></g><path d="M318.5,108.99656946826758L353.6666666666667,121.66380789022298C388.8333333333333,134.3310463121784,459.1666666666667,159.6655231560892,494.3333333333333,176.91609491137794C529.5,194.16666666666666,529.5,203.33333333333334,529.5,207.91666666666666L529.5,212.5" id="edge6372" class="relation dashed-line" marker-end="url(#dependencyEnd)"></path><g class="classLabel"><rect class="box" x="420.421875" y="138.15625" width="34.015625" height="20.015625"></rect><text class="label" x="436.93635309973234" y="151.65803456422606" fill="red" text-anchor="middle">create</text></g><path d="M318.5,124.78145695364239L336.5416666666667,134.817880794702C354.5833333333333,144.8543046357616,390.6666666666667,164.9271523178808,408.7083333333333,185.79690949227373C426.75,206.66666666666666,426.75,228.33333333333334,426.75,250C426.75,271.6666666666667,426.75,293.3333333333333,431.6111111111111,308.3333333333333C436.47222222222223,323.3333333333333,446.1944444444445,331.6666666666667,451.0555555555556,335.8333333333333L455.9166666666667,340" id="edge6373" class="relation dashed-line" marker-end="url(#dependencyEnd)"></path><g class="classLabel"><rect class="box" x="395.75" y="193.765625" width="62" height="20.015625"></rect><text class="label" x="426.75" y="207.27125705275125" fill="red" text-anchor="middle">startServer()</text></g><path d="M529.5,287.5L529.5,292.0833333333333C529.5,296.6666666666667,529.5,305.8333333333333,526.6471471471472,314.5833333333333C523.7942942942942,323.3333333333333,518.0885885885886,331.6666666666667,515.2357357357357,335.8333333333333L512.3828828828829,340" id="edge6374" class="relation dashed-line" marker-end="url(#dependencyEnd)"></path><g class="classLabel"><rect class="box" x="505.203125" y="302.640625" width="47.015625" height="20.015625"></rect><text class="label" x="528.7095090589115" y="316.1545328218529" fill="red" text-anchor="middle">connect()</text></g><path d="M238,290L238,294.1666666666667C238,298.3333333333333,238,306.6666666666667,238,315.5C238,324.3333333333333,238,333.6666666666667,238,338.3333333333333L238,343" id="edge6375" class="relation dashed-line" marker-end="url(#dependencyEnd)"></path><g class="classLabel"><rect class="box" x="218.5" y="303" width="39" height="20"></rect><text class="label" x="238" y="316.5" fill="red" text-anchor="middle">register</text></g></svg>

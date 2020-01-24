@@ -1,0 +1,52 @@
+```mermaid
+ classDiagram
+		NodeInspector <.. Repl: depend
+	  NodeInspector ..> Repl: create
+		NodeInspector <.. WatcherService: depend
+	  NodeInspector ..> WatcherService: create
+	  NodeInspector ..> InspectorClient: create
+	  NodeInspector ..> NodeDebugProcess: startServer()
+	  InspectorClient ..> NodeDebugProcess: connect()
+	  WatcherService ..> Watcher: register
+
+	  class NodeDebugProcess{
+	  	- script: File
+    -...
+	  }
+
+		class NodeInspector{
+				-repl: Repl
+				-client: InspectClient
+		-watchService: WatchService
+		-opts: [port, host, file, ...]
+  -...
+		+constructor(opts, stdin, stdout)
+		-startServer()
+		-connectServer()
+				-loadWatchers()
+		+print(message)
+		+[domains[:]]()
+		}
+
+	  class Repl {
+    -history: String[]
+    -...
+		  -controlEval(input)
+	  }
+
+		class InspectorClient{
+				+connect()
+				+emit()
+				+on()
+		}
+
+		class WatcherService{
+				-watchers: Watcher[]
+    -...
+				+registerWatcher(watcher: Watcher)
+		}
+
+		class Watcher{
+				+onDebugEvent(inspector: NodeInspector, domain, name, params)		  
+		}
+```
