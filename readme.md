@@ -12,7 +12,8 @@ extended node debugger server and client cli on v8 debugger protocol
 
 ## install
 ```bash
-yarn global add ndx
+yarn global add @ecpy/ndx
+
 # help
 npx @ecpy/ndx --help
 
