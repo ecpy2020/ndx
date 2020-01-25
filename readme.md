@@ -13,12 +13,14 @@ extended node debugger server and client cli on v8 debugger protocol
 ## install
 ```bash
 yarn global add ndx
+# help
+npx @ecpy/ndx --help
 
 # launch debug server
-ndx -s -h localhost -p 3000 $APP 
+npx @ecpy/ndx -s -h localhost -p 3000 $APP 
 
 # launch as debug cli client with watchers
-ndx -c -h localhost -p 3000 -w $WATCHERS_FILE
+npx @ecpy/ndx -c -h localhost -p 3000 -w $WATCHERS_FILE
 ```
 
 ## examples
