@@ -1,6 +1,6 @@
 {
   "name": "@ecpy/ndx",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "extended node debugger server and client cli on v8 debugger protocol",
   "main": "cli.js",
   "scripts": {
