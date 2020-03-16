@@ -7,6 +7,12 @@ extended node debugger server and client cli on v8 debugger protocol
 - watcher enables to blackbox and stepover the custom or internal scripts when stepping and trace function calls and variables
 - separated server executable and client cli makes debugging dockerized node app possible 
 
+## pending works
+- update the cli interface for more easier readability
+- add typings
+- update demo gif
+- support <a href="https://nestjs.com/">Nestjs</a> 
+
 ## demo
 <img src="https://github.com/ecpy/ndx/raw/master/demo/ndx.gif">
 
@@ -66,3 +72,4 @@ class VariablesWatcher extends Watcher {
 - parts of the debugger structure is referenced from [node-inspect](https://github.com/nodejs/node-inspect)  
 
 <img src="https://github.com/ecpy/ndx/raw/master/structure.png" height="500">
+
