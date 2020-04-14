@@ -4,6 +4,8 @@
   "description": "extended node debugger server and client cli on v8 debugger protocol",
   "main": "cli.js",
   "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc",
     "test-server": "./cli.js -s -h localhost -p 3000 ./app-sample",
     "test-client": "./cli.js -c -h localhost -p 3000 -w ./watcher-samples/index.js"
   },
@@ -23,7 +25,8 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "chalk": "^3.0.0",
-    "commander": "^4.1.0"
+    "commander": "^4.1.0",
+    "tsc": "^1.20150623.0"
   },
   "publishConfig": {
     "access": "public"
