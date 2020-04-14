@@ -14,7 +14,7 @@ extended node debugger server and client cli on v8 debugger protocol
 - [ ] support <a href="https://nestjs.com/">Nestjs</a> framework watchers
 
 ## demo
-<img src="https://github.com/ecpy/ndx/raw/master/demo/ndx.gif" width=200>
+<img src="https://github.com/ecpy/ndx/raw/master/demo/ndx.gif" width=600>
 
 ## install
 ```bash
