@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonJs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": false,
+    "baseUrl": "./",
+    "incremental": true
+  },
+  "include": [
+    "./lib/*.ts",
+    "./watcher-samples/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
