@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonJs", 
+    "module": "commonJs",
     "moduleResolution": "node",
     "declaration": true,
     "removeComments": true,
@@ -8,7 +8,6 @@
     "experimentalDecorators": true,
     "target": "es2017",
     "sourceMap": false,
-    // "outDir": "./lib",
     "baseUrl": "./",
     "incremental": true
   },
