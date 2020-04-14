@@ -4,7 +4,7 @@
   "description": "extended node debugger server and client cli on v8 debugger protocol",
   "main": "cli.js",
   "scripts": {
-    "prepublish": "yarn build",
+    "prepublish": "tsc",
     "build": "tsc",
     "test-server": "./cli.js -s -h localhost -p 3000 ./app-sample",
     "test-client": "./cli.js -c -h localhost -p 3000 -w ./watcher-samples/index.js"
