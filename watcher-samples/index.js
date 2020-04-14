@@ -1,1 +1,1 @@
-module.exports = [ require('./blackbox-internal-watcher'), require('./variables-watcher') ]
+module.exports = [ require('./blackbox-internal-watcher').default ];
