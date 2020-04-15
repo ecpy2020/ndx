@@ -1,5 +1,5 @@
 # ndx
-extended node debugger server and client cli on v8 debugger protocol
+extended node debugger server and client cli on v8 debugger protocol for debugging large Nodejs Applications 
 
 ## features
 - able to register watchers to automate the debugging process 
