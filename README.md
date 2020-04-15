@@ -8,10 +8,10 @@ extended node debugger server and client cli on v8 debugger protocol for debuggi
 - separated server executable and client cli makes debugging dockerized node app possible 
 
 ## pending works
-- [x] add typings
-- [ ] update the cli interface for more easier readability
-- [ ] update demo gif
-- [ ] support <a href="https://nestjs.com/">Nestjs</a> framework watchers
+- [x] add typings to watchers
+- [ ] support debugging typescript application with source map support
+- [ ] update the cli interface for readability
+- [ ] support <a href="https://nestjs.com/">Nestjs</a> framework debugging by providing NestJs Watchers
 
 ## demo
 <img src="https://github.com/ecpy/ndx/raw/master/demo/ndx.gif" width=600>
