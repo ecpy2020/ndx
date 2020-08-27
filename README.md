@@ -1,5 +1,8 @@
 # ndx
-extended node debugger server and client cli on v8 debugger protocol for debugging large Nodejs Applications 
+extended node debugger 
+
+## introduction
+tracing bugs, variables, understanding large web app flows are difficult, imagine stepping through 100k lines of your own company's large project codebase with many internal framework and librarys' codebase, it is a nightmare, with ndx debugger, you can easily step through the the kinds of source code you want and watch any incoming arguments, and you can also create custom watchers to automate this process, what a hack!!!
 
 ## features
 - able to register watchers to automate the debugging process 
