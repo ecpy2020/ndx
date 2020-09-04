@@ -115,5 +115,5 @@ export default class InternalScriptWatcher extends Watcher {
 ## development
 - parts of the debugger structure is referenced from [node-inspect](https://github.com/nodejs/node-inspect)  
 
-<img src="https://github.com/ecpy/ndx/raw/master/structure.png" height="500">
+<img src="https://github.com/ecpy/ndx/raw/master/structure.svg" height="500">
 
