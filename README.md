@@ -11,6 +11,7 @@ tracing bugs, variables, understanding large web app flows are difficult, imagin
 - separated server executable and client cli makes debugging dockerized node app possible 
 
 ## pending works
+- [ ] support automatically print out all function calls with arguments and catching errors with configurable included files
 - [x] add typings to watchers
 - [ ] support debugging typescript application with source map support
 - [ ] update the cli interface for readability
