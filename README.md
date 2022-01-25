@@ -18,7 +18,7 @@ tracing bugs, variables, understanding large web app flows are difficult, imagin
 - [ ] support <a href="https://nestjs.com/">Nestjs</a> framework debugging by providing NestJs Watchers
 
 ## demo
-<img src="https://github.com/ecpy/ndx/raw/master/demo/ndx.gif" width=600>
+<img src="https://github.com/ecpy2020/ndx/raw/master/demo/ndx.gif" width=600>
 
 ## install
 ```bash
